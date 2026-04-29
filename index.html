@@ -621,11 +621,14 @@
         showTyping();
 
         try {
-          const res = await fetch("http://localhost:3000/chat", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ persona: currentPersona, messages }),
-          });
+          const res = await fetch(
+            "https://persona-chatbot-backend.onrender.com/chat",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ persona: currentPersona, messages }),
+            },
+          );
 
           hideTyping();
 
