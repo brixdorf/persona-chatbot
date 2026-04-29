@@ -12,7 +12,7 @@ async function main() {
     messages: [
       {
         role: "user",
-        content: "Say hello and tell me your name.",
+        content: "Say hello and tell me your name and what you can do.",
       },
     ],
   });
