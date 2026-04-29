@@ -8,7 +8,7 @@ const client = new OpenAI({
 
 async function main() {
   const response = await client.chat.completions.create({
-    model: "gemini-3-flash-preview",
+    model: "gemini-2.5-flash-lite",
     messages: [
       {
         role: "user",
