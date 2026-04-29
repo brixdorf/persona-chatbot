@@ -46,7 +46,7 @@ const server = http.createServer(async (req, res) => {
         }
 
         const response = await client.chat.completions.create({
-          model: "gemini-3-flash-preview",
+          model: "gemini-2.5-flash-lite",
           messages: [
             {
               role: "system",
