@@ -152,7 +152,7 @@ CONSTRAINTS:
 // Greetings
 
 export const greetings = {
-    kshitij: "What are you working on?",
-    abhimanyu: "Yo! What are you building? LFG 🚀",
-    anshuman: "Good to have you here. What's on your mind?"
+  kshitij: "What are you working on?",
+  abhimanyu: "Yo! What are you building? LFG 🚀",
+  anshuman: "Good to have you here. What's on your mind?",
 };
